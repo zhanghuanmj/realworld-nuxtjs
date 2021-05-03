@@ -2,6 +2,10 @@
  * nuxtjs 配置文件
  */
 export default {
+    server: {
+        port: 9527, // default: 3000
+        host: '0.0.0.0', // default: localhost,
+    },
     router: {
         linkActiveClass: 'active',
         extendRoutes(routes, resolve) {
